@@ -1,9 +1,13 @@
+Build fork to work with GRADLE. Run it ignoring the tests, since meta model generator is not properly configured:
+
+gradlew clean build -Dorg.gradle.java.home=C:\R2DA\java\jdk-11.0.10 -x test
+
 # specification-with-projection
 Support Projections with `JpaSpecificationExecutor.findAll(Specification,Pageable)` for Spring Data JPA
 
->version 2.x.x for Spring Data JPA 2.x (Spring Boot 2.x) 
+>version 2.x.x for Spring Data JPA 2.x (Spring Boot 2.x)
 
->version 1.x.x Spring Data JPA 1.x 
+>version 1.x.x Spring Data JPA 1.x
 
 ## How to use
 * add dependency to pom
